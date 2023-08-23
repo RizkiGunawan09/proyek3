@@ -1,0 +1,71 @@
+main {
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 1fr 1fr 1fr 2fr 1fr;
+    height: 100vh;
+    padding: 10px;
+}
+
+main>div {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    font-size: 5rem;
+}
+
+#white-text-color {
+    color: white;
+}
+
+.yellow {
+    background-color: rgb(241, 241, 13);
+}
+
+.black {
+    background-color: black;
+    grid-column: 2 / span 3;
+}
+
+.green {
+    background-color: rgb(60, 185, 60);
+}
+
+.brown {
+    background-color: rgb(138, 80, 26);
+}
+
+.pink {
+    background-color: rgb(231, 120, 198);
+    grid-area: 2 / 3 / span 2;
+}
+
+.blue {
+    background-color: rgb(34, 150, 245);
+}
+
+.red {
+    background-color: red;
+}
+
+.grey {
+    background-color: rgb(146, 146, 146);
+    grid-area: 4 / 2 / span 1 / span 2;
+}
+
+.dark-blue {
+    background-color: rgb(25, 108, 216);
+    grid-area: 4 / 1 / span 2;
+}
+
+.orange {
+    background-color: orange;
+    grid-area: 5 / 2 / span 1 / span 2;
+}
+
+.purple {
+    background-color: rgb(113, 4, 156);
+    grid-area: 3 / 4 / span 3;
+}
