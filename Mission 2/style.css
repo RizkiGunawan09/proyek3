@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+.teman_gambar,
+.teman_text,
+.teman_delete_button {
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left,
+.right {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 45%;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 50px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.button-follow {
+    background-color: rgb(0, 110, 255);
+    color: white;
+    /* align-self: flex-end; */
+    /* Menempatkan tombol di sebelah kanan */
+    margin-left: 100px;
+}
+
+.button-unfollow {
+    background-color: rgb(143, 6, 6);
+    color: white;
+    align-self: flex-end;
+    /* Menempatkan tombol di sebelah kanan */
+    margin-left: 100px;
+}
